@@ -63,6 +63,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Code\Blocks\Block.cs" />
+    <Compile Include="Assets\Code\Blocks\IBlock.cs" />
+    <Compile Include="Assets\Code\Enums\PlaceableTypes.cs" />
+    <Compile Include="Assets\Code\Generators\Chunk.cs" />
+    <Compile Include="Assets\Code\Generators\IChunk.cs" />
+    <Compile Include="Assets\Code\Interfaces\ICanBeDestroyed.cs" />
+    <Compile Include="Assets\Code\Interfaces\IHaveHealth.cs" />
+    <Compile Include="Assets\Code\Interfaces\IHaveStats.cs" />
+    <Compile Include="Assets\Code\Interfaces\IItem.cs" />
+    <Compile Include="Assets\Code\Spawners\BlockSpawner.cs" />
+    <Compile Include="Assets\Code\Spawners\IPlaceable.cs" />
+    <Compile Include="Assets\Code\Spawners\Spawner.cs" />
+    <Compile Include="Assets\Code\VoxelData.cs" />
     <Compile Include="Assets\Code\Zenject\Installers\Installer.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
